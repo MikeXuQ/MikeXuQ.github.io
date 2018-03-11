@@ -42,7 +42,7 @@ colors:
         light: '#FFFFFF'
     bg: '#EAF1F4'
     
-pygments: true
+rouge: true
 permalink: pretty 
 exclude:
  - Rakefile
