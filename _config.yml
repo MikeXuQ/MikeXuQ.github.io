@@ -1,22 +1,22 @@
-<<<<<<< HEAD
+
 # Site settings
-title: Hux Blog
-SEOTitle: 黄玄的博客 | Hux Blog
+title: Xuq Blog
+SEOTitle: 许琦的博客 | Xuq Blog
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: "关于前端与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
-url: "https://huangxuan.me"              # your host, for absolute URL
+email: 837456906@qq.com
+description: "拥有梦想的咸鱼"
+keyword: "安卓，算法"
+url: "https://mikexuq.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
-twitter_username:   huxpro
+weibo_username: none
+zhihu_username: none
+github_username: MikeXuQ
+twitter_username: none
 #facebook_username:  huxpro
 # linkedin_username:  firstname-lastname-idxxxx
 
@@ -27,7 +27,7 @@ twitter_username:   huxpro
 highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
@@ -49,7 +49,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: hux
+disqus_username: Xuq
 
 # Netease setttings
 netease_comment: false
@@ -91,86 +91,8 @@ friends: [
     #     title: "Su",
     #     href: "http://su.gallery/"
     # },{
-        title: "乱序",
-        href: "http://mida.re/"
-    },{
-        title: "前端外刊评论",
-        href: "http://qianduan.guru/"
-    },{
-        title: "天镶的博客",
-        href: "http://lingyu.wang/"
-    },{
-        title: "Luke 的自留地",
-        href: "http://hmqk1995.github.io"
-    },{
-        title: "Ebn's Blog",
-        href: "http://ebnbin.com/"
-    },{
-        title: "SmdCn's Blog",
-        href: "http://blog.smdcn.net"
-    },{
-        title: "David's Game",
-        href: "https://www.ruoyaowu.com/"
-    },{
-        title: "DHong Say",
-        href: "http://dhong.co"
-    },{
-        title: "尹峰以为",
-        href: "http://ingf.github.io/"
-    },{
-        title: "解旻的博客",
-        href: "http://xieminis.me/"
+        title: "friends",
+        href: ""
     }
 ]
-=======
-title: Michael Monteleone
-url: http://michaelmonteleone.net
-description: 'Personal site of Michael Monteleone, software developer and designer from New Orleans'
-keywords:
- - Michael Monteleone
- - Mike Monteleone
- - namelessmike
 
-author:
-    name: Michael Monteleone
-    email: michael@michaelmonteleone.net
-    twitter: http://twitter.com/namelessmike
-    github: http://github.com/mmonteleone
-    delicious: http://delicious.com/namelessmike
-    pinboard: http://pinboard.in/u:namelessmike
-    googleplus: http://plus.google.com/100369739207842495161
-    facebook: http://www.facebook.com/michael.monteleone
-    linkedin: http://www.linkedin.com/in/michaelmonteleone/
-    avatar: http://www.gravatar.com/avatar/392da320b3aa4068d0b03024135875fb?s=70
-    openid:
-        server: https://www.google.com/accounts/o8/ud
-        delegate: http://www.google.com/profiles/namelessmike
-    
-sections:
- - projects
- - about
- - journal 
-stylesheets:
- - /assets/themes/default/css/screen.css?52480=52480
- - /assets/themes/default/css/print.css
-scripts:
- - http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js    
- - /assets/themes/default/js/site.min.js?131513?131513
-colors:
-    highlights:
-        blue: '#009ff7'
-        green: '#87d14b'
-        red: '#FF007C'
-    mono:
-        dark: '#000000'
-        medium: '#777777'
-        light: '#FFFFFF'
-    bg: '#EAF1F4'
-    
-rouge: true
-permalink: pretty 
-exclude:
- - Rakefile
- - README.markdown
- - .git
->>>>>>> 79c8d052fc4fa5489cfe7532bf086db8b9e7384d
