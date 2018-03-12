@@ -6,7 +6,7 @@ date:       2018-03-12 22:00:00
 author:     "Xuq"
 header-img: "img/post-bg-2015.jpg"
 tags:
-    - Life  ""
+    - Life
 ---
 
 # Lesson 1
