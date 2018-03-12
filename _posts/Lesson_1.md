@@ -1,3 +1,16 @@
+---
+layout:       post
+title:        "Lesson 1"
+subtitle:     ""
+date:         2018-03-12 22:00:00
+author:       "xuq"
+header-img:   "img/in-post/post-eleme-pwa/eleme-at-io.jpg"
+header-mask:  0.3
+
+tags:
+    - UML
+---
+
 # Lesson 1
 ##1. 软件工程的定义
 	+ 将系统化、规范化、可度量的方法应用于软件的开发、运行和维护的过程，即将工程化应用于软件中
