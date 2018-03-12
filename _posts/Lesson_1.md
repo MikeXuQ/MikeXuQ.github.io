@@ -3,12 +3,8 @@ layout:       post
 title:        "Lesson 1"
 subtitle:     ""
 date:         2018-03-12 22:00:00
-author:       "xuq"
-header-img:   "img/in-post/post-eleme-pwa/eleme-at-io.jpg"
-header-mask:  0.3
-
-tags:
-    - UML
+author:       "Xuq"
+header-img:   ""
 ---
 
 # Lesson 1
