@@ -92,7 +92,7 @@ CMMI，即软件能力成熟度模型，是一个将目前正在使用的以及�
 
 ## PSP
 ### 各项指标
-![avatar](MikeXuQ.github.io/img/PSP2.1.png)
+![avatar](https://raw.githubusercontent.com/MikeXuQ/MikeXuQ.github.io/master/img/PSP2.1.png)
 
 ### 统计方法
 在执行每个阶段时，进行计时。
