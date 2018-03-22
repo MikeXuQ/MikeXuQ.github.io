@@ -58,3 +58,4 @@
 在统一过程模型中，软件开发生命周期根据时间和RUP的核心工作流程划分为二维空间。而软件生命开发周期确定了固定周期，RUP的核心工作流程确定了固定的节奏。
 
 ## 二、项目管理说明
+![avatar](https://raw.githubusercontent.com/MikeXuQ/MikeXuQ.github.io/master/img/lesson2.jpg)
