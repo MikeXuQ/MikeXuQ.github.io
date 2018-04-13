@@ -1,0 +1,43 @@
+# Lesson 3
+## Vue学习报告
+### Vue技术简介
+Vue是当下很火的一个JavaScript MVVM库，相当于提供了很简单的接口，帮我们快速实现了数据与视图之间的双向绑定，当然我们也可以使用比较原始的方法，使用jQuery手把手绑定数据。但真的试了Vue后，真的让人爱不释手！
+
+### Vue技术用法简介
+一个Vue实例贯穿了整个框架。申明Vue实例，在html文件中的元素上添加指定语法，并将相应元素挂载在Vue实例的data中，那么简单的数据绑定便已经完成了，并且数据的更新是即时的。下面的这段胆码是一个简单的例子，  
+
+	<!DOCTYPE html>
+	<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+
+    <body>
+        <!--申明元素ID，指定Vue中与该元素绑定的数据-->
+        <div id="app">
+            {{ msg}}
+        </div>
+    </body>
+    <script src="js/vue.js"></script>
+    <script>
+        // 申明Model
+        var test= {
+            msg: 'Hello World!'
+        }
+
+        // 申明一个 Vue 实例并且进行数据挂载
+        new Vue({
+            el: '#app',
+            data: exampleData
+        })
+    </script>
+</html>
+  
+### Vue一些知识点总结
++ 只有当Vue创建时，才会将数据与视图连接起来，后续添加数据并对其进行修改，并不会触发视图的更新
++ Vue实例中存在一些叫做生命周期钩子的函数，给用户提供了不同阶段添加自己代码的机会，下图是一些钩子函数以及被触发的阶段(红字为相应钩子函数)
+![avatar](https://raw.githubusercontent.com/MikeXuQ/MikeXuQ.github.io/master/img/lesson3.png)
++ 在进行数据绑定时，浏览器只会认定{{msg}}中的数据为普通文本变量，不会将其当做Html元素处理，但使用v-html指令可以解决这个问题，但动态渲染是有一定风险的。
++ 在v-if指令中，如果表达式为假，则浏览器不会渲染相应元素，但是v-show指令会。
++ 虽然模板内支持简单简单的表达式，但表达式过于复杂将加重模板负担，应该使用计算属性
