@@ -32,12 +32,12 @@ Vue是当下很火的一个JavaScript MVVM库，相当于提供了很简单的�
             data: exampleData
         })
     </script>
-</html>
+    </html>
   
 ### Vue一些知识点总结
 + 只有当Vue创建时，才会将数据与视图连接起来，后续添加数据并对其进行修改，并不会触发视图的更新
 + Vue实例中存在一些叫做生命周期钩子的函数，给用户提供了不同阶段添加自己代码的机会，下图是一些钩子函数以及被触发的阶段(红字为相应钩子函数)
-![avatar](https://raw.githubusercontent.com/MikeXuQ/MikeXuQ.github.io/master/img/lesson3.png)
+![avatar](https://raw.githubusercontent.com/MikeXuQ/MikeXuQ.github.io/master/img/lesson5.png)
 + 在进行数据绑定时，浏览器只会认定{{msg}}中的数据为普通文本变量，不会将其当做Html元素处理，但使用v-html指令可以解决这个问题，但动态渲染是有一定风险的。
 + 在v-if指令中，如果表达式为假，则浏览器不会渲染相应元素，但是v-show指令会。
 + 虽然模板内支持简单简单的表达式，但表达式过于复杂将加重模板负担，应该使用计算属性
