@@ -1,0 +1,36 @@
+# Lesson 6
+## 1. 用例建模
+### Asg_RH 用例图
+![avator](https://raw.githubusercontent.com/MikeXuQ/MikeXuQ.github.io/master/img/asg_usecase.png)
+### 去哪儿网 用例图
+![avator](https://raw.githubusercontent.com/MikeXuQ/MikeXuQ.github.io/master/img/qunar_usecase.png)
+### 发现创新方法的总结
+1. 确定用户目标
+2. 思考实现用户目标过程中可能的需求，可以参考类似的产品，考虑其不合理的地方
+3. 考虑现有技术能否实现或改进这样的需求
+
+### 请使用 SCRUM 方法，在（任务b）用例图基础上，编制某定旅馆开发的需求 
+
+| ID | 需求名称 | 优先级 | 需求描述 |
+|----|:---:|----:|----:|
+| 1 | 查询酒店 | 1 | 用户选择城市、确定入住日期，可以输入对酒店的地理位置要求 |
+| 2 | 预订房间 | 2 | 用户选择入住酒店、选择合适的房间、确认用户信息，确定订单后可以检查预订详情|
+| 3 | 支付订单 | 3 | 用户选择支付方式，可以到店现金支付，或者选择在线支付 |
+| 4 | 查询酒店地理位置| 4 | 在查询酒店时，用户可通过在线地图查询酒店的具体位置 |
+
+## 2. 业务建模
+### 去哪儿网活动图
+![avator](https://raw.githubusercontent.com/MikeXuQ/MikeXuQ.github.io/master/img/qunar_activity.png)
+根据流程图，可以将整个用例的业务流程清晰的展现出来，确定其中可以抽象出来共用的部分，从而得到子用例。
+
+### ATM活动图
+![avator](https://raw.githubusercontent.com/MikeXuQ/MikeXuQ.github.io/master/img/atm_activity.png)
+### 淘宝泳道图
+![avator](https://raw.githubusercontent.com/MikeXuQ/MikeXuQ.github.io/master/img/taobao.png)
+淘宝网上需要实现的系统用例：生成退款单，更改订单交易状态，更改退单款状态
+
+## 3. 用例文本编写
+### 三种用例文本各自的优缺点
+1. 摘要：能在早期的需求分析中，快速了解主题和范围，同时编写简单。但太粗略对问题考虑不够细致
+2. 非正式：相对于摘要会详细一点，不过是非正式的，同样有助于早期过程中快速了解主题和范围，编写方便。但是不够正式，在问题的描述上可能不够清晰。
+3. 详述：详细编写所有步骤和各种变化，同时具有补充部分。详述十分正式，且会深入问题，有结构性，缺点就是耗时
