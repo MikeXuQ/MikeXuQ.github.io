@@ -1,0 +1,13 @@
+# lesson 7
+## 1. 阅读Asg_RH文档，按用例构建领域模型
+![avator](https://raw.githubusercontent.com/MikeXuQ/MikeXuQ.github.io/master/img/task2.png)
+
+## 2. 数据库建模
+### E-R模型(OpenSystemArchitect绘制)
+![avator](https://raw.githubusercontent.com/MikeXuQ/MikeXuQ.github.io/master/img/er.png)
+
+### 物理数据库的脚本(OpenSystemArchitect绘制)
+![avator](https://raw.githubusercontent.com/MikeXuQ/MikeXuQ.github.io/master/img/datascript.png)
+
+### 数据库逻辑模型与领域模型的异同
+它们的相同之处在于都是表示对象以及它们之间的关系。它们的不同之处在于领域模型是根据业务所需设计的，而数据库逻辑模型是为了存储数据所需而设计的，这意味着领域模型中的对象不一定会被存储在数据模型中，但是数据库逻辑模型中的对象大多来自于领域模型
