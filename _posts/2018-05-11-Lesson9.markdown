@@ -1,0 +1,12 @@
+# 建模联系
+### 参考文档
+## 用例图
+![avator](https://raw.githubusercontent.com/MikeXuQ/MikeXuQ.github.io/master/img/usecase.png)
+## 用例活动图
+![avator](https://raw.githubusercontent.com/MikeXuQ/MikeXuQ.github.io/master/img/activity.png)
+## 清单管理领域模型
+![avator](https://raw.githubusercontent.com/MikeXuQ/MikeXuQ.github.io/master/img/model.png)
+## 清单对象状态图
+![avator](https://raw.githubusercontent.com/MikeXuQ/MikeXuQ.github.io/master/img/state.png)
+## 创建清单的系统顺序图
+![avator](https://raw.githubusercontent.com/MikeXuQ/MikeXuQ.github.io/master/img/seq.png)
