@@ -1,0 +1,12 @@
+# 使用 ECB 实现 make reservation 用例的详细设计（包含用例简介，顺序图，类图）
+## 用例简介
+用户根据自己的需求，查询对应地点和时间段的酒店，并且选择酒店，选择房间，，填写用户信息并确认预订，支付订单
+## 顺序图
+![sequence](https://raw.githubusercontent.com/MikeXuQ/MikeXuQ.github.io/master/img/sequence.png)
+## 类图
+![class](https://raw.githubusercontent.com/MikeXuQ/MikeXuQ.github.io/master/img/class.png)
+# 将逻辑设计类图映射到实际项目框架的包图。用树形结构表述实现的包和类
+## 包图
+![bao](https://raw.githubusercontent.com/MikeXuQ/MikeXuQ.github.io/master/img/bao.png)
+## 树形图
+![tree](https://raw.githubusercontent.com/MikeXuQ/MikeXuQ.github.io/master/img/tree.png)
